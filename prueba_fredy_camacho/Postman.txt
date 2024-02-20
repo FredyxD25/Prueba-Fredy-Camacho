@@ -1,0 +1,69 @@
+/********* INSERTAR DATOS ****************/
+
+https://localhost:7197/API/PruebaEnviar
+
+{
+  "persona": {
+    "tipoDocumento": "TI",
+    "numeroD": "987654321",
+    "nombres": "Maria Fernanda",
+    "apellidos": "Gomez Rodriguez",
+    "correo": "maria.gomez@example.com",
+    "telefono": "987654320",
+    "fechaNacimiento": "1985-05-15",
+    "afiliacion": "inactivo"
+  }
+}
+
+{
+  "persona": {
+    "tipoDocumento": "CC",
+    "numeroD": "123456789",
+    "nombres": "Juan Alejandro",
+    "apellidos": "Pérez Parra",
+    "correo": "juan.perez@example.com",
+    "telefono": "1234567890",
+    "fechaNacimiento": "1990-01-01",
+    "afiliacion": "activo"
+  }
+}
+{
+  "persona": {
+    "tipoDocumento": "CE",
+    "numeroD": "98765210",
+    "nombres": "Ana María",
+    "apellidos": "García López",
+    "correo": "ana.garcia@example.com",
+    "telefono": "55525555",
+    "fechaNacimiento": "1988-03-20",
+    "afiliacion": "suspendido"
+  }
+}
+
+/********************** ACTUALIZAR DATOS *******************/
+
+https://localhost:7197/API/PruebaActualizar
+
+{
+  "persona": {
+    "tipoDocumento": "TI",
+    "numeroD": "987654321",
+    "nombres": "Maria Fernanda",
+    "apellidos": "Gomez Rodriguez",
+    "correo": "maria.gomez@example.com",
+    "telefono": "987654320",
+    "fechaNacimiento": "1985-05-15",
+    "afiliacion": "inactivo"
+  }
+}
+
+/********************ELIMINAR DATOS *****************/
+
+https://localhost:7197/API/PruebaEliminar
+
+{
+  "EliminarD": {
+    "titulo": "Telefono",
+    "dato": "987654320"
+    }
+}
